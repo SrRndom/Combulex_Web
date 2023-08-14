@@ -1,0 +1,89 @@
+/* ELIMINAR COMENTARIOS AL TERMINAR */
+/* Orden para la pagina*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px; /* Puedes ajustar  tamaño base según  preferencias */
+    color: #333; /* Color de texto base,  ajustarlo según la paleta de colores */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; /* Establece el peso para los títulos */
+}
+
+/* Si deseas especificar pesos diferentes para ciertos títulos o textos, puedes hacerlo así: */
+h2 {
+    font-weight: 600;
+}
+
+:root {
+    --green-nopal: #4CAF50;
+    --pink-fruit: #FF4081;
+    --beige-sand: #FFF9C4;
+    --gray-industrial: #9E9E9E;
+    --main-color: var(--green-nopal);
+    --text-color: #333;
+    --bg-color: var(--beige-sand);
+    --big-font: 5rem;
+    --h2-font: 2.25rem;
+    --p-font: 0.9rem;
+}
+
+
+*::selection {
+    background: var(--green-nopal);
+    color: var(--beige-sand);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Ajusta según tus necesidades */
+    background-color: var(--bg-color);
+}
+
+#company-logo {
+    height: 40px; /* Ajusta según el tamaño deseado */
+    margin-right: 20px; /* Espacio entre el logo y otros elementos, si los hay */
+}
+
+body {
+    color: var(--gray-industrial);
+    background: var(--beige-sand);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background: var(--green-nopal);
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar a{
+    color: var(--pink-fruit);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
