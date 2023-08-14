@@ -30,8 +30,15 @@ h2 {
 :root {
     --green-nopal: #4CAF50;
     --pink-fruit: #FF4081;
+    --pink-fruit-soft: #FFA1B3;  /* Rosa fruta atenuado */
     --beige-sand: #FFF9C4;
     --gray-industrial: #9E9E9E;
+    --light-gray: #B0BEC5;  /* Gris Claro */
+    --beige-darkened: #EFE5B0;  /* Beige oscurecido */
+    --green-nopal-lightened: #6ED381;  /* Verde nopal atenuado */
+    --beige-toasted: #EEDDAA;  /* Beige ligeramente tostado */
+    --green-nopal-desaturated: #8CBF8E;  /* Verde nopal desaturado */
+    --beige-greenish: #CCE2B3;  /* Beige con un toque de verde */
     --main-color: var(--green-nopal);
     --text-color: #333;
     --bg-color: var(--beige-sand);
@@ -82,8 +89,19 @@ header {
 }
 
 .navbar a{
-    color: var(--pink-fruit);
+    color: var(--beige-sand);
     font-size: 1.1rem;
     padding: 10px 20px;
     font-weight: 500;
+}
+
+.navbar a:hover {
+    color: var(--pink-fruit-soft);
+    transition: .4s;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
 }
