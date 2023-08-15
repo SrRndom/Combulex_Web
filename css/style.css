@@ -63,8 +63,9 @@ header {
 }
 
 #company-logo {
-    height: 45px; /* Ajusta según el tamaño deseado */
-    margin-right: 25px; /* Espacio entre el logo y otros elementos, si los hay */
+    width: 50px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Esto mantendrá la proporción de la imagen */
+    align-self: center;
 }
 
 body {
@@ -73,6 +74,7 @@ body {
 }
 
 header {
+    display: flex;
     position: fixed;
     top: 0;
     right: 0;
@@ -82,11 +84,15 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 30px 170px;
-    background: var(--green-nopal);
+    background: linear-gradient(rgba(76, 175, 80, 0.5), rgba(76, 175, 80, 0.5)), url('/resources/fondo_nopal.jpg');
+    background-size: cover; /* Esto hará que la imagen cubra toda la sección */
+    background-repeat: no-repeat; /* Esto evitará que la imagen se repita si es más pequeña que la sección */
+    background-position: center center; /* Esto centrará la imagen en la sección */
 }
 
 .navbar {
     display: flex;
+    
 
 }
 
@@ -123,7 +129,7 @@ section {
 
 .Home-img img {
     max-width: 5000%;
-    width: 700px;
+    width: 550px;
     height: auto;
     border-radius: 50%;
 }
