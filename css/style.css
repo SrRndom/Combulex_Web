@@ -55,17 +55,28 @@ h2 {
     color: var(--beige-sand);
 }
 
-header {
+/* header {
     display: flex;
     align-items: center;
-    padding: 10px 20px; /* Ajusta según tus necesidades */
+    padding: 10px 20px; Ajusta según tus necesidades
     background-color: var(--bg-color);
+} */
+
+.logo-container {
+    position: relative;
+    height: 20px; /* o el alto que desees para el navbar */
+    width: 50px; /* o el ancho que desees para el logo */
 }
 
+/* Estilos para el logo */
 #company-logo {
-    width: 50px; /* Ajusta este valor según el tamaño deseado */
-    height: auto; /* Esto mantendrá la proporción de la imagen */
-    align-self: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); /* Centra el logo verticalmente */
+    width: 80px; /* o el ancho que desees para el logo */
+    height: auto;
+    z-index: 10; /* Asegura que el logo esté por encima de otros elementos */
 }
 
 body {
