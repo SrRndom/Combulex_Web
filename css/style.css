@@ -150,7 +150,7 @@ section {
     max-width: 5000%;
     width: 500px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 61% 39% 76% 24% / 42% 61% 39% 58% ;
 }
 
 .home-text h1{
@@ -398,4 +398,9 @@ section {
     transform: scale(1.2);
     color: var(--bg-color);
     background: var(--text-color);
+}
+
+.video-container {
+    display: flex;
+    align-items: center;
 }
