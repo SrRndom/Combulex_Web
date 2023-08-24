@@ -75,8 +75,8 @@ h2 {
     top: 50%;
     left: 0;
     transform: translateY(-50%); /* Centra el logo verticalmente */
-    width: 80px; /* o el ancho que desees para el logo */
-    height: auto;
+    width: 120px; /* o el ancho que desees para el logo */
+    height: auto; /*Agregar Fondo al Logo*/
     z-index: 10; /* Asegura que el logo esté por encima de otros elementos */
 }
 
@@ -140,7 +140,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     align-items: center;
-    background: linear-gradient(rgba(115, 152, 115, 0.78), rgba(114, 148, 114, 0.735)), url('/resources/Fondo2.jpg');
+    background: linear-gradient(rgba(79, 103, 79, 0.78), rgba(53, 67, 53, 0.735)), url('/resources/Fondo2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -155,12 +155,12 @@ section {
 
 .home-text h1{
     font-size: 40px;
-    color: var(--text-color);
+    color: var(--beige-greenish);
 }
 
 .home-text h2{
     font-size: 18px;
-    color: var(--text-color);
+    color: #FFF;
     text-align: justify;
     text-justify: inter-word;
 }
