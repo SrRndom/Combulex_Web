@@ -251,9 +251,14 @@ section {
 /* Estilo Ingenieria */
 .Ingenieria {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    padding: 50px 150px;
+    /* padding: 50px 150px;
+    margin: 50px; */
+    background: linear-gradient(rgba(101, 102, 101, 0.78), rgba(82, 84, 82, 0.735)), url(/resources/ingenieriabg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .Ingenieria-text {
@@ -264,13 +269,13 @@ section {
 .Ingenieria h1 {
     font-size: 35px;
     font-weight: 700;
-    color: var(--green-nopal);
+    color: var(--green-nopal-lightened);
 }
 
 .Ingenieria h3 {
     font-size: 20px;
     font-weight: 400;
-    color: var(--text-color);
+    color: var(--beige-toasted);
 }
 
 .Ingenieria-Img img {
@@ -279,6 +284,7 @@ section {
     border-radius: 50% 50% 50% / 42% 28% 72% 58%;
     /* margin-right: 120px; */
 }
+
 /* Estilo Vida */
 .Vida {
     display: flex;
@@ -287,6 +293,9 @@ section {
     height: 95vh; /* Ocupa el 100% del alto de la ventana */
     flex-direction: column; /* Organiza los elementos en una columna */
     background: linear-gradient(rgba(101, 102, 101, 0.78), rgba(82, 84, 82, 0.735)), url('/resources/MontanaNopal.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .Vida-text h1 {
@@ -401,6 +410,29 @@ section {
 }
 
 .video-container {
+    background: linear-gradient(rgba(79, 103, 79, 0.78), rgba(53, 67, 53, 0.735)), url('/resources/vapor_verde.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video-text h1{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--green-nopal);
+    margin-bottom: 1rem;
+}
+
+.video-text h3 {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--Total-black);
+}
+
+.video-video {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
