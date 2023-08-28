@@ -42,6 +42,7 @@ h2 {
     --beige-greenish: #CCE2B3;  /* Beige con un toque de verde */
     --KyooPal-gradient: linear-gradient(to right, #dd3e54, #6be585);
     --Total-black:#000;
+    --piggy-pink: linear-gradient(to right, #ee9ca7, #ffdde1);
     --main-color: var(--green-nopal);
     --text-color: #333;
     --bg-color: var(--beige-sand);
@@ -75,9 +76,10 @@ h2 {
     top: 50%;
     left: 0;
     transform: translateY(-50%); /* Centra el logo verticalmente */
-    width: 120px; /* o el ancho que desees para el logo */
+    width: 100px; /* o el ancho que desees para el logo */
     height: auto; /*Agregar Fondo al Logo*/
     z-index: 10; /* Asegura que el logo esté por encima de otros elementos */
+    border-radius: 10px 100px /120px;
 }
 
 body {
