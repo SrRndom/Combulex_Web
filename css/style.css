@@ -501,8 +501,64 @@ section {
     height: 100%;
   }
 
-
   
 
 /* Responsivos */
 
+/* Estilos para tabletas */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px; /* Reducir el tamaño de fuente base */
+    }
+
+    header {
+        padding: 20px 50px; /* Reducir el padding del encabezado */
+    }
+
+    .home-text h1 {
+        font-size: 30px; /* Reducir el tamaño de fuente del título en la sección home */
+    }
+
+    .Bioenergetico-text h2 {
+        font-size: 30px; /* Reducir el tamaño de fuente del título en la sección Bioenergetico */
+    }
+
+    .Ingenieria-text h1 {
+        font-size: 30px; /* Reducir el tamaño de fuente del título en la sección Ingenieria */
+    }
+
+    .Vida-text h1 {
+        font-size: 35px; /* Reducir el tamaño de fuente del título en la sección Vida */
+    }
+
+    .videoteca-title h1 {
+        font-size: 2.5rem; /* Reducir el tamaño de fuente del título en la sección videoteca */
+    }
+
+    .video-grid {
+        grid-template-columns: 1fr; /* Cambiar la disposición de los videos a una sola columna */
+    }
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 480px) {
+    header {
+        padding: 15px 30px; /* Reducir aún más el padding del encabezado */
+    }
+
+    .menu-icon {
+        display: block; /* Mostrar el ícono del menú en dispositivos móviles */
+    }
+
+    .navbar {
+        display: none; /* Ocultar la barra de navegación en dispositivos móviles */
+    }
+
+    .home-text h1, .Bioenergetico-text h2, .Ingenieria-text h1, .Vida-text h1, .videoteca-title h1 {
+        font-size: 25px; /* Reducir aún más el tamaño de fuente de los títulos en todas las secciones */
+    }
+
+    .home, .Bioenergetico {
+        grid-template-columns: 1fr; /* Cambiar la disposición de las secciones a una sola columna */
+    }
+}
