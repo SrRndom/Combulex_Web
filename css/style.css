@@ -543,6 +543,22 @@ section {
     .video-grid {
         grid-template-columns: 1fr; /* Cambiar la disposición de los videos a una sola columna */
     }
+
+    .home {
+        grid-template-columns: 1fr; /* Cambia la disposición a una sola columna */
+        padding: 20px; /* Añade un poco de padding para dar espacio */
+    }
+
+    .Home-img img {
+        width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        max-width: 400px; /* Establece un ancho máximo para la imagen */
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+
+    .home-text {
+        text-align: center; /* Centra el texto */
+        margin-top: 20px; /* Añade un margen superior para separar el texto de la imagen */
+    }
 }
 
 /* Estilos para dispositivos móviles */
@@ -571,5 +587,22 @@ section {
     .home, .Bioenergetico {
         grid-template-columns: 1fr; /* Cambiar la disposición de las secciones a una sola columna */
     }
+
+    .home {
+        grid-template-columns: 1fr; /* Cambia la disposición a una sola columna */
+        padding: 20px; /* Añade un poco de padding para dar espacio */
+    }
+
+    .Home-img img {
+        width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        max-width: 400px; /* Establece un ancho máximo para la imagen */
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+
+    .home-text {
+        text-align: center; /* Centra el texto */
+        margin-top: 20px; /* Añade un margen superior para separar el texto de la imagen */
+    }   
+
 }
 
