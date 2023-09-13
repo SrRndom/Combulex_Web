@@ -75,10 +75,10 @@ h2 {
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translateY(-50%); /* Centra el logo verticalmente */
-    width: 100px; /* o el ancho que desees para el logo */
-    height: auto; /*Agregar Fondo al Logo*/
-    z-index: 10; /* Asegura que el logo esté por encima de otros elementos */
+    transform: translateY(-50%);
+    width: 100px;
+    height: auto;
+    z-index: 10;
     border-radius: 10px 100px /120px;
 }
 
@@ -515,6 +515,11 @@ section {
         padding: 20px 50px; /* Reducir el padding del encabezado */
     }
 
+    #company-logo {
+        width: 70px; /* Ajusta según sea necesario */
+        left: 10px; /* Añade un pequeño margen si es necesario */
+    }
+
     .home-text h1 {
         font-size: 30px; /* Reducir el tamaño de fuente del título en la sección home */
     }
@@ -554,6 +559,11 @@ section {
         display: none; /* Ocultar la barra de navegación en dispositivos móviles */
     }
 
+    #company-logo {
+        width: 70px; /* Ajusta según sea necesario */
+        left: 10px; /* Añade un pequeño margen si es necesario */
+    }
+
     .home-text h1, .Bioenergetico-text h2, .Ingenieria-text h1, .Vida-text h1, .videoteca-title h1 {
         font-size: 25px; /* Reducir aún más el tamaño de fuente de los títulos en todas las secciones */
     }
@@ -562,3 +572,4 @@ section {
         grid-template-columns: 1fr; /* Cambiar la disposición de las secciones a una sola columna */
     }
 }
+
