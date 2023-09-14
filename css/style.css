@@ -183,29 +183,45 @@ section {
 /* Seccion .Bioenergetico */
 
 .Bioenergetico {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.Bioenergetico-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .Bioenergetico-img img {
     max-width: 100%;
-    width: 550px;
+    margin-bottom: 10px;
+    /* width: 550px;
     height: auto;
-    /* border-radius: 29% 71% 50% 50% / 63% 45% 55% 37% ; */
+    border-radius: 29% 71% 50% 50% / 63% 45% 55% 37% ; */
 }
 
-.Bioenergetico-text h2{
+.Bioenergetico-img h1 {
+    align-items: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 20px;
     color: var(--green-nopal);
 }
+
 
 .Bioenergetico-text span{
     font-size: 25px;
     font-weight: 400;
     color: var(--pink-fruit-hardened);
+    font-style: italic;
+    color: var(--green-nopal);
 }
 
 .Bioenergetico-text h3 {
