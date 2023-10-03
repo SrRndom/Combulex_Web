@@ -9,6 +9,9 @@
     <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+
 
 </head>
 <body>
@@ -25,7 +28,6 @@
             <li><a href="#video-container">Biorrefineria</a></li>
             <li><a href="#Bioenergetico">Ciclo Bioenergetico</a></li>
             <li><a href="/Videos.html">Videos</a></li>
-            <!-- <li><a href="/Investigacion.html">Investigacion</a></li> -->
             <li><a href="/Noticias.html">Noticias</a></li>
             <li><a href="/Contacto.html">Contacto</a></li>
         </ul>
@@ -77,7 +79,9 @@
     <section class="Bioenergetico" id="Bioenergetico">
         <div class="Bioenergetico-img">
             <h1>Ciclo Bioenergetico</h1>
-            <img src="resources/Ciclo_Bioenergetico.jpg" alt="">
+            <!-- <img src="resources/Ciclo_Bioenergetico_orig.jpg" alt=""> -->
+            <a href="/resources/Ciclo_Bioenergetico_orig.jpg" data-lightbox="image-1" data-title="Ciclo Bioenergetico">
+                <img src="/resources/Ciclo_Bioenergetico_orig.jpg" alt="Ciclo Bioenergetico">
         </div>
 
         <div class="Bioenergetico-text">
@@ -93,22 +97,6 @@
         </div>
     </section>
 
-
-    <!-- Combustion_Combulex {DESACTIVADO NO AVISAR AL ADMIN}
-    <section class="Combustion" id="Combustion">
-        <div class="Combustion-text">
-            <h1>Tecnologia de Combustion "Combulex® ES"</h1>
-            <h2>En Combulex, desarrollamos biocombustibles a partir de desechos de materia orgánica de diversas industrias agropecuarias.</h2>
-            <h3>Nuestro grupo de ingenieros puede modificar tu sistema de combustión actual y adaptarlo a nuestros biocombustibles, garantizándote ahorros inmediatos.</h3>
-            <h4>Con este tipo de generación de energía, contribuyes a la preservación de nuestro planeta.</h4>
-            <h2>"Combulex® ES"</h2>
-        </div>
-
-        <div class="Combustion-img">
-            <img src="/resources/Quem_Ind_Dummy.png" alt="">
-        </div>
-
-    </section> -->
 
     <!-- Equipo de Ingenieria -->
     <section class="Ingenieria" id="Ingenieria">
@@ -133,20 +121,6 @@
                 empresas que quieran vivir en carne propia lo que significa usar biocombustibles. </h3>
         </div>
     </section>
-
-    <!-- Combulex ES Rodante DESCARTADO--ELIMINAR DESPUES -->
-    <!-- <section class="Rodante" id="Rodante">
-        <div class="Rodante-text">
-            <h1>Combulex ES Rodante</h1>
-        </div>
-        
-        <div class="Rodante-Img">
-            <img src="resources/Remolque_Dummy.png" alt="">
-        </div>
-    </section> -->
-
-
-    <!-- RESERVADO -->
 
 
 
@@ -204,6 +178,8 @@
     </section>
 
     <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
     
 </body>
 </html>
